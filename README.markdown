@@ -5,6 +5,10 @@ Prints the root directory of the specified gem.
   
     > gem dir -l rails
     /Library/Ruby/Gems/1.8/gems/rails-2.3.4
+    
+Command line ninjas like myself can then do this, for example:
+
+    cd `gem dir -l memcache-client` && rake test
   
 Installation:
 ------------
