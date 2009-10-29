@@ -3,16 +3,18 @@ Gem Dir
 
 Prints the root directory of the specified gem.
   
-  gem dir rails
+  > gem dir -l rails
+  /Library/Ruby/Gems/1.8/gems/rails-2.3.4
   
 Installation:
 ------------
 
 Just install like any normal gem:
-  gem install mperham-gem_dir
+  gem install gem_dir
   
-You might need to add Github as a gem source:
-  gem sources -a http://gems.github.com
+You might need to install Gemcutter as a gem source:
+  gem install gemcutter
+  gem tumble
   
 For more help: 
   gem dir --help
@@ -21,4 +23,4 @@ For more help:
 Thanks
 -------------
 
-Based on Adam Sanderson's open_gem.
+Based on Adam Sanderson's sweet open_gem extension.
